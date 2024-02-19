@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/jj-mahoney/static/css/main.c7be1fbb.css",
+    "main.js": "/jj-mahoney/static/js/main.741fbaed.js",
+    "static/media/cover.jpg": "/jj-mahoney/static/media/cover.ca0f032c610fd532f904.jpg",
+    "static/media/crest.gif": "/jj-mahoney/static/media/crest.5f0dabb51cfeb36cc7fe.gif",
+    "static/media/apps.jpg": "/jj-mahoney/static/media/apps.17b145384e86272ee1b3.jpg",
+    "static/media/burgers.jpg": "/jj-mahoney/static/media/burgers.20466bed40f3250e8733.jpg",
+    "index.html": "/jj-mahoney/index.html",
+    "main.c7be1fbb.css.map": "/jj-mahoney/static/css/main.c7be1fbb.css.map",
+    "main.741fbaed.js.map": "/jj-mahoney/static/js/main.741fbaed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7be1fbb.css",
+    "static/js/main.741fbaed.js"
+  ]
+}
