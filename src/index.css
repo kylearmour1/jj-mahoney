@@ -28,3 +28,9 @@ footer {
 .hi .h2 .h3 .p {
   font-size: 300px;
 }
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
