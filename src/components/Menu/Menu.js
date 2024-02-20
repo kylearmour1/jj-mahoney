@@ -1,12 +1,11 @@
 
-
 import React, { useState, useRef } from "react";
 
 // Explicitly import images
 import SpecialtyCocktails from "../photos/cocktails.jpg";
 import HappyHour from "../photos/happyhour.png";
 import Entrees from "../photos/entrees.jpg";
-import BurgersSandwhiches from "../photos/burgers.jpg";
+import BurgersSandwiches from "../photos/burgers.jpg";
 import Appetizers from "../photos/apps.jpg";
 import Brunch from "../photos/brunch.jpg";
 import TapList from "../photos/tablist.jpg";
@@ -20,7 +19,7 @@ function Menu() {
     { name: "Happy Hour", ref: useRef(null), image: HappyHour },
     { name: "Appetizers", ref: useRef(null), image: Appetizers },
     { name: "Entrees", ref: useRef(null), image: Entrees },
-    { name: "Burgers and Sandwiches", ref: useRef(null), image: BurgersSandwhiches },
+    { name: "Burgers and Sandwiches", ref: useRef(null), image: BurgersSandwiches },
     { name: "Brunch", ref: useRef(null), image: Brunch },
   ];
 
@@ -57,7 +56,7 @@ function Menu() {
         {categories.map((category) => (
           <div key={category.name} ref={category.ref} className="mb-8 flex flex-col items-center">
             <h2 className="text-xl font-bold text-whitesmoke mb-2">{category.name}</h2>
-            <img src={category.image} alt={category.name} className="w-5/6 h-auto mx-auto" />
+            <img src={category.image} alt={category.name} className="w-96 h-auto mx-auto" /> {/* Adjust the width here */}
           </div>
         ))}
       </div>

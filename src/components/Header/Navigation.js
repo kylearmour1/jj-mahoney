@@ -1,16 +1,15 @@
-
-
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Crest from "../photos/crest.gif"
+import Logo from "../photos/Logo.png"; // Import the logo
+
 function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
         <header className="bg-gradient-to-r from-green-800 to-gray-200 w-screen">
             <div className="flex items-center justify-between p-2.5">
-                <h1 className="text-4xl text-black font-bold">JJ Mahoney's</h1>
+                {/* Replace the text with logo image */}
+                <img src={Logo} alt="JJ Mahoney's Logo" className="h-16" /> {/* Adjust the height as needed */}
                 <button
                     aria-label="Toggle navigation menu"
                     className="z-20 px-4 py-2 text-black font-semibold focus:outline-none"
@@ -38,4 +37,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
