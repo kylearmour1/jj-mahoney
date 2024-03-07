@@ -32,6 +32,7 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Menu from "./components/Menu/Menu";
+import Takeout from "./components/Takeout/Takeout"
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/takeout" element={<Takeout />} />
         <Route path="/menu" element={<Menu />} />
       </Routes>
       <Footer />
