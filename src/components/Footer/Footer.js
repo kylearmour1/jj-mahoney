@@ -1,30 +1,24 @@
+
+
 // import React from "react";
 // import "./Footer.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {
-//   faGithub,
-//   faLinkedin,
-//   faStackOverflow,
-// } from "@fortawesome/free-brands-svg-icons";
+// import { faFacebookSquare, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 // function Footer() {
 //   return (
 //     <footer>
-//       <a href="https://github.com/kylearmour1">
-//         <FontAwesomeIcon icon={faGithub} />
+//       <a href="https://www.facebook.com/jjmahoneysirishpub" target="_blank" rel="noopener noreferrer">
+//         <FontAwesomeIcon icon={faFacebookSquare} />
 //       </a>
-//       <a href="https://www.linkedin.com/in/kyle-armour-5879aa261/">
-//         <FontAwesomeIcon icon={faLinkedin} />
-//       </a>
-//       <a href="https://stackoverflow.com/users/20619295/kyle-armour">
-//         <FontAwesomeIcon icon={faStackOverflow} />
+//       <a href="https://www.instagram.com/jjmahoneysirishpub/" target="_blank" rel="noopener noreferrer">
+//         <FontAwesomeIcon icon={faInstagram} />
 //       </a>
 //     </footer>
 //   );
 // }
 
 // export default Footer;
-
 
 import React from "react";
 import "./Footer.css";
@@ -33,15 +27,22 @@ import { faFacebookSquare, faInstagram } from "@fortawesome/free-brands-svg-icon
 
 function Footer() {
   return (
-    <footer>
-      <a href="https://www.facebook.com/jjmahoneysirishpub" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faFacebookSquare} />
-      </a>
-      <a href="https://www.instagram.com/jjmahoneysirishpub/" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faInstagram} />
-      </a>
+    <footer className="footer">
+      <div className="all-rights-reserved">
+        © [2024] Kyle Armour. <span className="small">All rights reserved.</span>
+      </div>
+      <div className="social-icons">
+        <a href="https://www.facebook.com/jjmahoneysirishpub" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faFacebookSquare} />
+        </a>
+        <a href="https://www.instagram.com/jjmahoneysirishpub/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+      </div>
     </footer>
   );
 }
 
 export default Footer;
+
+

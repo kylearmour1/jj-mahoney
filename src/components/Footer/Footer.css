@@ -1,4 +1,4 @@
-footer {
+/* footer {
   background-image: linear-gradient(
     rgb(0, 27, 54),
     rgba(245, 245, 245, 0.473)
@@ -19,5 +19,38 @@ footer a {
 }
 
 footer a:hover {
+  text-decoration: underline;
+} */
+
+
+
+
+
+
+.footer {
+  background-image: linear-gradient(to right, #1e40af, #1e429f);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-size: 16px;
+}
+
+.all-rights-reserved {
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-left: 10px; /* Adjust spacing between icons if needed */
+  text-decoration: none;
+  color: black;
+}
+
+.social-icons a:hover {
   text-decoration: underline;
 }
