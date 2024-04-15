@@ -130,7 +130,7 @@ function About() {
         
         <h1 className="text-2xl font-semibold">Phone</h1>
         <p className="mt-2 text-lg">
-            <a href="tel:4255581866" className="text-blue-500 underline">425-558-1838</a>
+            <a href="tel:4255581866" className="text-blue-500 underline">425-558-1866</a>
         </p>
 
         <h1 className="text-2xl font-semibold mt-4">Hours</h1>
