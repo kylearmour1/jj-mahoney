@@ -1,4 +1,5 @@
 
+
 import React, { useState, useRef } from "react";
 
 // Explicitly import images
@@ -39,11 +40,11 @@ function Menu() {
   };
 
   return (
-    <div className="flex flex-col items-center w-full">
-      <div className="fixed top-16 right-4 z-50">
+    <div className="flex flex-col items-center w-full pb-16">
+      <div className="fixed top-15 -right-0.5 z-50">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="px-4 py-2 text-white font-semibold hover:opacity-90 transition duration-300 bg-black border border-gray-400 rounded"
+          className="px-4 py-2 text-white font-semibold hover:opacity-90 hover:underline transition duration-300 bg-black border border-gray-400 rounded"
         >
           Categories
         </button>
@@ -51,8 +52,7 @@ function Menu() {
         {isOpen && (
           <div className="absolute top-full right-0 mt-1 bg-black shadow-md rounded px-4 py-2">
             {categories.map((category) => (
-              // Adjusting text size to be smaller
-              <p key={category.name} onClick={() => scrollToCategory(category.name)} className="text-white cursor-pointer py-2 text-sm">
+              <p key={category.name} onClick={() => scrollToCategory(category.name)} className="text-white cursor-pointer py-2 text-sm hover:underline">
                 {category.name}
               </p>
             ))}
@@ -67,6 +67,25 @@ function Menu() {
             <img src={category.image} alt={category.name} className="w-96 h-auto mx-auto" />
           </div>
         ))}
+        
+        {/* Location, Phone, and Hours section */}
+        <div className="mt-8">
+            <h1 className="text-2xl font-semibold">Location</h1>
+            <p className="mt-2 text-lg">8932 161st Ave NE Redmond, WA 98052</p>
+            
+            <h1 className="text-2xl font-semibold">Phone</h1>
+            <p className="mt-2 text-lg">
+                <a href="tel:4255581838" className="text-blue-500 underline hover:underline">425-558-1838</a>
+            </p>
+
+            <h1 className="text-2xl font-semibold mt-4">Hours</h1>
+            <p className="mt-2 text-lg">
+                Monday-Thursday: 11am-11pm <br />
+                Friday: 11am-12am<br />
+                Saturday: 9:30am-12am<br />
+                Sunday: 9:30am-11pm
+            </p>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 
 
 
+
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -26,11 +27,15 @@ function Contact() {
     };
 
     return (
-        <div className="max-w-4xl mx-auto px-4 py-8 text-whitesmoke">
+        <div className="max-w-4xl mx-auto px-4 py-8 text-whitesmoke pb-16"> {/* Add bottom padding */}
             <h1 className="text-3xl font-bold">Get in touch. We love hearing from you.</h1>
             <p className="mt-4 text-lg">
                 Please fill out our contact form with any comments, questions, or concerns and we will respond as soon as possible!
             </p>
+            <h1 className="text-2xl font-semibold">For Reservation, Large Parties, or Banquet Email us At:</h1>
+                <p className="mt-2 text-lg">
+                    <a href="mailto:manager@jjmahoneys.com" className="text-blue-500 underline">manager@jjmahoneys.com</a>
+                </p>
             <form ref={form} onSubmit={sendEmail} className="mt-8">
                 <div className="mb-4">
                     <label className="block text-sm font-bold mb-2" htmlFor="name">
@@ -62,19 +67,25 @@ function Contact() {
                 <p className="mt-4 text-sm font-semibold text-red-600">Failed to send the message. Please try again.</p>
             )}
 
-            <h1 className="text-2xl font-semibold mt-8">Location</h1>
-            <p className="mt-2 text-lg">8932 161st Ave NE Redmond, WA 98052</p>
+            <div className="mt-8"> {/* Move Location and Hours into a separate container */}
+                <h1 className="text-2xl font-semibold">Location</h1>
+                <p className="mt-2 text-lg">8932 161st Ave NE Redmond, WA 98052</p>
+               
+                <h1 className="text-2xl font-semibold">Phone</h1>
+                <p className="mt-2 text-lg">
+                    <a href="tel:4255581838" className="text-blue-500 underline">425-558-1838</a>
+                </p>
 
-            <h1 className="text-2xl font-semibold mt-4">Hours</h1>
-            <p className="mt-2 text-lg">
-                Monday-Thursday: 11am-11pm <br />
-                Friday: 11am-12am<br />
-                Saturday: 9:30am-12am<br />
-                Sunday: 9:30am-11pm
-            </p>
+                <h1 className="text-2xl font-semibold mt-4">Hours</h1>
+                <p className="mt-2 text-lg">
+                    Monday-Thursday: 11am-11pm <br />
+                    Friday: 11am-12am<br />
+                    Saturday: 9:30am-12am<br />
+                    Sunday: 9:30am-11pm
+                </p>
+            </div>
         </div>
     );
 }
 
 export default Contact;
-

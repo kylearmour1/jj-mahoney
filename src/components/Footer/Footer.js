@@ -29,7 +29,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="all-rights-reserved">
-        © [2024] Kyle Armour. <span className="small">All rights reserved.</span>
+        © [2024] Kyle Armour & Quin Abei. <span className="small">All rights reserved.</span>
       </div>
       <div className="social-icons">
         <a href="https://www.facebook.com/jjmahoneysirishpub" target="_blank" rel="noopener noreferrer">

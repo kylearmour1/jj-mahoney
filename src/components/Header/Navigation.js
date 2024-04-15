@@ -8,7 +8,7 @@ function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="bg-gradient-to-r from-blue-900 to-blue-800 w-screen sticky top-0 z-50">
+        <header className="bg-gradient-to-r from-blue-900 to-blue-800 w-screen sticky top-0 z-[100]"> {/* Increase the z-index here */}
             <div className="flex items-center justify-between p-1">
                 <img src={Logo} alt="JJ Mahoney's Logo" className="h-12" />
                 <button
@@ -25,7 +25,9 @@ function Navigation() {
                         <Link to="/home" className="block px-4 py-1 text-white hover:bg-blue-700 hover:underline" onClick={() => setIsOpen(false)}>Home</Link>
                     </li>
                     <li>
-                        {/* Updated Takeout link to use an <a> tag for external link */}
+                        <Link to="/about" className="block px-4 py-1 text-white hover:bg-blue-700 hover:underline" onClick={() => setIsOpen(false)}>About Us</Link> {/* Add this line */}
+                    </li>
+                    <li>
                         <a href="https://order.toasttab.com/online/jj-mahoneys" target="_blank" rel="noopener noreferrer" className="block px-4 py-1 text-white hover:bg-blue-700 hover:underline">
                             Takeout
                         </a>
@@ -43,3 +45,4 @@ function Navigation() {
 }
 
 export default Navigation;
+
