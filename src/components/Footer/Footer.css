@@ -1,28 +1,3 @@
-/* footer {
-  background-image: linear-gradient(
-    rgb(0, 27, 54),
-    rgba(245, 245, 245, 0.473)
-);
-
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-footer a {
-  margin-right: 10px;
-  text-decoration: none;
-  color: black;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-}
-
-footer a:hover {
-  text-decoration: underline;
-} */
-
-
 
 
 
@@ -48,7 +23,7 @@ footer a:hover {
 .social-icons a {
   margin-left: 10px; /* Adjust spacing between icons if needed */
   text-decoration: none;
-  color: black;
+  color: white; /* Make the icons white to be visible on the darker background */
 }
 
 .social-icons a:hover {
