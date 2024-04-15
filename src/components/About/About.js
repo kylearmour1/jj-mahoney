@@ -74,6 +74,9 @@
 
 
 
+
+
+
 import React from "react";
 import johnJamesPhoto from '../photos/johnjames.jpg'; // Import John James's photo
 // Import additional photos
