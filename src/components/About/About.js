@@ -111,7 +111,8 @@ function About() {
         </div>
         
         <div className="md:ml-8 mt-4 md:mt-0">
-          <img src={johnJamesPhoto} alt="John James Mahoney" className="w-full md:w-70 h-auto mx-auto" />
+          <img src={johnJamesPhoto} alt="John James Mahoney" />
+
         </div>
       </div>
 

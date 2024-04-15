@@ -7,7 +7,7 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Menu from "./components/Menu/Menu";
-import Takeout from "./components/Takeout/Takeout"
+
 import About from "./components/About/About";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/takeout" element={<Takeout />} />
+     
         <Route path="/menu" element={<Menu />} />
       </Routes>
       <Footer />
