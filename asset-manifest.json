@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jj-mahoney/static/css/main.9ba4d1c1.css",
-    "main.js": "/jj-mahoney/static/js/main.e2f49c83.js",
+    "main.css": "/jj-mahoney/static/css/main.56651663.css",
+    "main.js": "/jj-mahoney/static/js/main.2475bc4f.js",
     "static/media/cover.jpg": "/jj-mahoney/static/media/cover.a8b01af9ce38d5a031c3.jpg",
     "static/media/map.png": "/jj-mahoney/static/media/map.cd75e5a2b530415b3d27.png",
     "static/media/jj4.jpg": "/jj-mahoney/static/media/jj4.6a3bdf4245ba14075ed7.jpg",
@@ -12,14 +12,13 @@
     "static/media/jj3.jpg": "/jj-mahoney/static/media/jj3.8fe206d7c5c46ddffb0b.jpg",
     "static/media/jj7.jpg": "/jj-mahoney/static/media/jj7.38c19720694d76944041.jpg",
     "static/media/jj1.jpg": "/jj-mahoney/static/media/jj1.04d58f9b3daeffa7b042.jpg",
-    "static/media/apps.jpg": "/jj-mahoney/static/media/apps.17b145384e86272ee1b3.jpg",
-    "static/media/burgers.jpg": "/jj-mahoney/static/media/burgers.20466bed40f3250e8733.jpg",
+    "static/media/Logo.png": "/jj-mahoney/static/media/Logo.66c03401d32b170afb54.png",
     "index.html": "/jj-mahoney/index.html",
-    "main.9ba4d1c1.css.map": "/jj-mahoney/static/css/main.9ba4d1c1.css.map",
-    "main.e2f49c83.js.map": "/jj-mahoney/static/js/main.e2f49c83.js.map"
+    "main.56651663.css.map": "/jj-mahoney/static/css/main.56651663.css.map",
+    "main.2475bc4f.js.map": "/jj-mahoney/static/js/main.2475bc4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ba4d1c1.css",
-    "static/js/main.e2f49c83.js"
+    "static/css/main.56651663.css",
+    "static/js/main.2475bc4f.js"
   ]
 }
