@@ -1,11 +1,11 @@
+
 // module.exports = {
-//   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-//   darkMode: false, // or 'media' or 'class'
+//   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
 //   theme: {
 //     extend: {
 //       fontSize: {
-//         'custom-h1': '2rem', // Corrected custom class for h1
-//         'custom-p': '1rem',  // Corrected custom class for p
+//         'custom-h1': '2rem',
+//         'custom-p': '1rem', 
 //       },
 //     },
 //   },
@@ -15,10 +15,14 @@
 //   plugins: [],
 // };
 
+
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     extend: {
+      colors: {
+        'custom-blue': '#172554', // Custom background color
+      },
       fontSize: {
         'custom-h1': '2rem', // Custom class for h1
         'custom-p': '1rem',  // Custom class for p
